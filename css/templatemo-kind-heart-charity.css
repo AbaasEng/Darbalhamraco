@@ -48,10 +48,10 @@ https://templatemo.com/tm-581-kind-heart-charity
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #e77416;
+  --white-color:                  #f1c3a1;
   --primary-color:                #030303;
   --secondary-color:              #030303;
-  --section-bg-color:             #020202;
+  --section-bg-color:             #f48339;
   --site-footer-bg-color:         #020305;
   --custom-btn-bg-color:          #000000;
   --custom-btn-bg-hover-color:    #5bc1ac;
@@ -142,7 +142,7 @@ p {
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
-  float: inline-end;
+ /* float: inline-end; */
 }
 
 ul li {
@@ -179,6 +179,7 @@ strong {
 .section-padding {
   padding-top: 100px;
   padding-bottom: 100px;
+  
 }
 
 .section-bg {
@@ -238,12 +239,12 @@ strong {
   PROGRESS BAR               
 -----------------------------------------*/
 .progress {
-  background: var(--border-color);
+  background: #2eef58;
   height: 5px;
 }
 
 .progress-bar {
-  background: var(--secondary-color);
+  background: #3ae246;
 }
 
 
@@ -643,6 +644,7 @@ strong {
   transition: all 0.5s ease;
   min-height: 256px;
   padding: 15px;
+  
 }
 
 .featured-block:hover {
@@ -682,6 +684,7 @@ strong {
   background-position: center;
   background-size: cover;
       text-align: end;
+      background-color: #eeb088;
 }
 
 .about-image {
